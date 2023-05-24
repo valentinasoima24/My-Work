@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <AssemblyName>Nagarro.VendingMachine</AssemblyName>
+        <RootNamespace>Nagarro.VendingMachine</RootNamespace>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <Company>Nagarro</Company>
+        <Authors>Remote Learning</Authors>
+        <Product>Vending Machine</Product>
+        <Description>This is an exercise used in the Remote Learning program from Nagarro.</Description>
+        <Copyright>Copyright © Nagarro 2017-2022</Copyright>
+        <StartupObject>Nagarro.VendingMachine.Program</StartupObject>
+    </PropertyGroup>
+	<ItemGroup>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+			<_Parameter1>$(VendingMachine_VS).UnitTests</_Parameter1>
+		</AssemblyAttribute>
+	</ItemGroup>
+
+</Project>
