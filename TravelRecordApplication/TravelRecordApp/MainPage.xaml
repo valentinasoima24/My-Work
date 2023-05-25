@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelRecordApp.MainPage">
+
+
+
+
+    <StackLayout Margin="20"
+                 VerticalOptions="Center">
+        <Image x:Name="iconImage"
+               Aspect="AspectFit"
+               HorizontalOptions="FillAndExpand"
+               Margin="0, 0, 0, 50"/>
+        <Label HorizontalTextAlignment="Center" 
+               FontSize="Large" 
+               TextColor="AliceBlue" 
+               >
+            Welcome to Travel Record! 
+        </Label>
+
+        <Label HorizontalTextAlignment="Start"
+               Text="&#xf0e0;"
+                FontFamily="{StaticResource FontAwesomeSolid}"
+               FontSize="Medium"/>
+        
+        <Entry x:Name="EmailEntry"
+               Keyboard="Email"
+               TextColor="White"/>
+
+        <Label HorizontalTextAlignment="Start"
+               Text="&#xf084;"
+                FontFamily="{StaticResource FontAwesomeSolid}"
+               FontSize="Medium"/>
+        <Entry x:Name="PasswordEntry"
+               IsPassword="True"
+               TextColor="White"/>
+        
+        
+        <Button x:Name="LoginButton"
+                Text="&#xf2f6;  Log in"
+                FontFamily="{StaticResource FontAwesomeSolid}"
+                BackgroundColor="DodgerBlue"
+                TextColor="White" 
+                Clicked="LoginButton_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>

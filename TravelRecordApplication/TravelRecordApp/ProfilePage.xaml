@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelRecordApp.ProfilePage">
+    <ContentPage.Content>
+        <ScrollView>
+            
+       
+            <StackLayout Margin="20">
+                <Label Text="Welcome to the Profile Page!" TextColor="#C2CBFA"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center" />
+
+                <Frame CornerRadius="100" 
+                       Padding="0"
+                       HorizontalOptions="CenterAndExpand">
+                    <Image Source="wyx"
+                           WidthRequest="150"
+                           HeightRequest="150"
+                           Aspect="AspectFill"/>
+                </Frame>
+
+                <Image/>
+                <Entry x:Name="Username"
+                       Placeholder=" Username"/>
+                <Entry x:Name="FirstName"
+                       Placeholder="First Name"/>
+                <Entry x:Name="MiddleName"
+                       Placeholder="Middle Name"/>
+                <Entry x:Name="LastName"
+                       Placeholder="Last Name"/>
+                <Entry x:Name="DateOfBirth"
+                       Placeholder="Date of Birth"/>
+                <Entry x:Name="Location"
+                       Placeholder="Location"/>
+
+                <Button x:Name="UpdateProfileButton"
+                        Text="Update Profile"
+                        BackgroundColor="#FAC05F"
+                        TextColor="Black"
+                        Clicked="UpdateProfileButton_Clicked"/>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
