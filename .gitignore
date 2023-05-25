@@ -1,0 +1,13 @@
+﻿TravelRecordApplication
+TheUniverse/gitignore.txt
+TheUniverse/TheUniverse/.vs
+TheUniverse/TheUniverse/TheUniverse.Presentation/obj
+TheUniverse/TheUniverse/TheUniverse.Infrastructure/obj
+TheUniverse/TheUniverse/TheUniverse.Presentation/bin
+TheUniverse/TheUniverse/TheUniverse/bin
+TheUniverse/TheUniverse/TheUniverse/obj
+TheUniverse/TheUniverse/TheUniverse.Application/bin
+TheUniverse/TheUniverse/TheUniverse.Application/obj
+TheUniverse/TheUniverse/TheUniverse.Domain/bin
+TheUniverse/TheUniverse/TheUniverse.Domain/obj
+TheUniverse/TheUniverse/TheUniverse.Infrastructure/bin
